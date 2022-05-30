@@ -12,7 +12,8 @@ const AddProduct = () => {
 
   return (
     <>
-      <Button my={4} data-cy="add-product-button"></Button>
+    <h3>Hello , I am from AddProduct</h3>
+      <Button my={4} data-cy="add-product-button">Add</Button>
       <Modal>
         <ModalBody pb={6}>
           <Input data-cy="add-product-title" />
